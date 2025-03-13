@@ -64,6 +64,12 @@
             const classPrediction =
                 prediction[i].className + ": " + prediction[i].probability.toFixed(2);
             labelContainer.childNodes[i].innerHTML = classPrediction;
+
+            // lo nuevo 
+            if (prediction[i].className === "esteban" && prediction[i].probability > 0.7){ 
+                  alert ("hola esteban");
+    
+            }
         }
     }
 </script>

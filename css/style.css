@@ -1,6 +1,31 @@
 body{
-    background-color: #f0f0f0;
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-}
+
+        background-image: url('../assets/img/fondo.jpg'); /* Ruta a la imagen de fondo */
+        background-size: cover; /* Asegura que la imagen cubra todo el fondo */
+        font-family: "Rock Salt", cursive;
+        color: rgb(245, 242, 239);
+
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh; 
+    }
+    
+    #webcam-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+    }
+    
+    #camera {
+        width: 640px; /* Ajusta el tamaño según sea necesario */
+        height: 480px; /* Ajusta el tamaño según sea necesario */
+    }
+
+    
+
+
